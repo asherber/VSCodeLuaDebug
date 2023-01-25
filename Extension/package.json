@@ -24,15 +24,15 @@
     },
     "devDependencies": {},
     "contributes": {
+        "breakpoints": [
+            {
+                "language": "lua"
+            }
+        ],
         "debuggers": [
             {
                 "type": "lua",
                 "label": "Lua Debugger",
-                "enableBreakpointsFor": {
-                    "languageIds": [
-                        "lua"
-                    ]
-                },
                 "program": "./DebugAdapter.exe",
                 "osx": {
                     "runtime": "mono"
